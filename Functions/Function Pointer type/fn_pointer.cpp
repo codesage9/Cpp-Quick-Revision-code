@@ -22,3 +22,10 @@ int main()
 // This function pointer give us the ability to pass function as a parameter
 // Store in data structures  
 // Runtime flexibility  
+
+// That's why we see things like 
+/*
+    std::sort(v.begin(), v.end(), std::greater<int>());
+*/
+
+// here passing greater fn as a paremeter
