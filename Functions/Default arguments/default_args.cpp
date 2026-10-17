@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 
+
+// void f(int a, int b = 10, int c = 20); // valid
+// void g(int a = 10, int b);             // invalid
+// Once a parameter has a default, all parameters to its right must also have default
+
 int fn(int a, int b = 2)
 {
     return a*b;
